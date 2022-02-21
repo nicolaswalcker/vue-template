@@ -63,6 +63,17 @@ $leading-relaxed: 1.625;
 $leading-loose: 2;
 
 // ==========================================================================
+// ? z-index
+// Ex.: z-index: $above;
+// ==========================================================================
+$below: -1;
+$default: 1;
+$dropdown: 200;
+$overlay: 300;
+$modal: 400;
+$above: 500;
+
+// ==========================================================================
 // ? Letter Spacing
 // Ex.: letter-spacing: $tracking-tight;
 // ==========================================================================
@@ -82,7 +93,6 @@ $transition-duration-complex: 385ms;
 $transition-duration-entrance: 235ms;
 $transition-duration-exit: 205ms;
 $transition-duration-fast: 150ms;
-
 $transition-function-ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
 $transition-function-ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
 $transition-function-ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045);
