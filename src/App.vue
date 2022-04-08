@@ -14,12 +14,15 @@
 <script>
 export default {
   name: 'App',
-  components: {
-  }
+  components: {},
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@import "@/assets/sass/base/_reset.scss";
+@import "@/assets/sass/base/_normalize.scss";
+@import "@/assets/sass/base/_global.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
